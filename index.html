@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ventana Flotante JSX</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://jeff-aporta.github.io/portafolio/src/imgs/icon.png"
+    />
+
+    <script src="https://jeff-aporta.github.io/ASCIIMapLoader/index.js"></script>
+    <script src="https://jeff-aporta.github.io/ASCIIMapLoader/src/mapeos-personales.js"></script>
+
+    <meta property="og:site_name" content="Ventana Flotante JSX" />
+    <meta property="og:title" content="Ventana Flotante JSX" />
+    <meta property="og:description" content="Genera ventanas flotantes tipo windows con JSX" />
+    <meta
+      property="og:image"
+      content="https://jeff-aporta.github.io/VentanaFlotanteJSX/src/img/logo.jpeg"
+    />
+
+    <script>
+      Object.values(ASCII_MAPS).forEach((map) => {
+        runASCIIMapLoader_inLine(map);
+      });
+
+      runASCIIMapLoader_inLine(`
+            🤖 REACT (JSX)
+
+            ➤📁 src
+            │
+            ├──📁 lib
+            │   ├──📁 v1
+            │   │   ├──📄 1-main
+            │   │   ├──📄 2-css-root-control
+            │   │   ├──📄 2-globales
+            │   │   ├──📄 2-modelos
+            │   │   │
+            │   │   ├──📁 estructura
+            │   │   │   ├──📁 estructura
+            │   │   │   │   ├──📄 3-control
+            │   │   │   │   ├──📄 3-crear
+            │   ╧   ╧   ╧   └──📄 3-marco
+            │
+            ├──📁 esquema
+            ╧   └──📄 contenido
+
+            📄 index
+        `);
+    </script>
+  </head>
+
+  <body></body>
+</html>
