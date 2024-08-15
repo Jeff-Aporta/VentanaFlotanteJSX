@@ -7,15 +7,15 @@ Documentación
         target="_blank"
     >
         https://jeff-aporta.github.io/VentanaFlotanteJSX
+        <br/>
+        <p align="center">
+            <img 
+                src="https://jeff-aporta.github.io/VentanaFlotanteJSX/src/img/logo.png" 
+                width="256"
+            />
+        </p>
     </a>
 </h2>
-<br/>
-<p align="center">
-    <img 
-        src="https://jeff-aporta.github.io/VentanaFlotanteJSX/src/img/logo.png" 
-        width="256"
-    />
-</p>
 <hr>
 <h2 align="right">
     <a 
