@@ -1,6 +1,7 @@
 <h1>
 Documentación
 </h1>
+<br/>
 <h2>
     <a 
         href="https://jeff-aporta.github.io/VentanaFlotanteJSX" 
