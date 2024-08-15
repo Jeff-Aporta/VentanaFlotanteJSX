@@ -1,5 +1,5 @@
 <h1>
-Documentación
+    Documentación
 </h1>
 <br/>
 <h2>
@@ -18,9 +18,7 @@ Documentación
         </p>
     </a>
 </h2>
-<br/>
-<br/>
-<hr>
+<br/><br/><hr>
 <h2 align="right">
     <a 
         href="https://jeff-aporta.github.io/portafolio" 
@@ -28,6 +26,5 @@ Documentación
     >
         Visita mi portafolio &lt;/&gt;
     </a>
-    <br>
-    <br>
+    <br><br>
 </h2>
