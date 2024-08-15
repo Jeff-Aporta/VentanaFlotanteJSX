@@ -8,6 +8,8 @@ Documentación
     >
         https://jeff-aporta.github.io/VentanaFlotanteJSX
         <br/>
+        <br/>
+        <br/>
         <p align="center">
             <img 
                 src="https://jeff-aporta.github.io/VentanaFlotanteJSX/src/img/logo.png" 
