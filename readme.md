@@ -22,7 +22,7 @@ Documentación
         href="https://jeff-aporta.github.io/portafolio" 
         target="_blank"
     >
-        Visita mi portafolio
+        Visita mi portafolio &lt;/&gt;
     </a>
     <br>
     <br>
