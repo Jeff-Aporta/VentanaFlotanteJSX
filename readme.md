@@ -1,14 +1,14 @@
 <h1>
 Documentación
 </h1>
-<h1>
+<h2>
     <a 
         href="https://jeff-aporta.github.io/VentanaFlotanteJSX" 
         target="_blank"
     >
         https://jeff-aporta.github.io/VentanaFlotanteJSX
     </a>
-</h1>
+</h2>
 <br/>
 <p align="center">
     <img 
