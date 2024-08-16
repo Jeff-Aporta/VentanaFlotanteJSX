@@ -13,23 +13,27 @@
     });
 
     function ROOT_PROPIEDADES(props = {}) {
-        switch (props.theme.toLowerCase()) {
-            case "dark":
-                props = themeDark();
-                break;
-            case "light":
-            default:
-                props = themeLight();
-                break;
-            case "w98":
-                props = themeW98();
-                break;
-            case "glassdark":
-                props = themeGlassDark();
-                break;
-            case "glasslight":
-                props = themeGlassLight();
-                break;
+        if (typeof props.theme == "object") {
+            props = props.theme;
+        } else {
+            switch (props.theme.toLowerCase()) {
+                case "dark":
+                    props = themeDark();
+                    break;
+                case "light":
+                default:
+                    props = themeLight();
+                    break;
+                case "w98":
+                    props = themeW98();
+                    break;
+                case "glassdark":
+                    props = themeGlassDark();
+                    break;
+                case "glasslight":
+                    props = themeGlassLight();
+                    break;
+            }
         }
         const {
             transitionSeconds,

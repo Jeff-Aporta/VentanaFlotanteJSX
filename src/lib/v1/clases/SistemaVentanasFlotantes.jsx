@@ -5,6 +5,9 @@ class SistemaVentanasFlotantes {
         this.ventanas = [];
         const { horizontal = "right", vertical = "bottom" } = props;
         this.align(horizontal, vertical);
+
+        this.maximoDeVentanas = 100;
+        this.seAlcanzoElMaximoDeVentanas = () => console.log("Se alcanzó el máximo de ventanas flotantes");
     }
 
     align(horizontal, vertical) {
@@ -43,6 +46,10 @@ class SistemaVentanasFlotantes {
     }
 
     nuevaVentana(props = {}) {
+        if (this.ventanas.length >= this.maximoDeVentanas) {
+            this.seAlcanzoElMaximoDeVentanas();
+            return;
+        }
         const div = document.createElement("div");
 
         props = {

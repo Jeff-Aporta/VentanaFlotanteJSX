@@ -116,6 +116,10 @@ class VentanaFlotante {
 
         setTimeout(() => {
             ventana.remove();
+            const i = this.sistema.ventanas.indexOf(this);
+            if (i != -1) {
+                this.sistema.ventanas.splice(this.sistema.ventanas.indexOf(this), 1);
+            }
             this.#showItemsByUnmaximize();
         }, 1000);
 
