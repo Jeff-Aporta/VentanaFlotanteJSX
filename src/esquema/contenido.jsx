@@ -313,8 +313,31 @@ const _CONTENIDO_VENTANA_FLOTANTE_ = new GenerarContenidoLibreria({
                                         <Code>{`
                                             VENTANA_FLOTANTE.ROOT_PROPIEDADES({ theme: "${tema}" });
                                         `}</Code>
-                                        <img src={`${thisObj.githubPage}/src/img/temas/${tema}.png`} alt={tema} />
-                                        <div style={{ padding: "60px" }} align="center">
+                                        <div
+                                            style={{
+                                                padding: "60px",
+
+                                                display: "flex",
+                                                justifyContent: "center",
+                                                alignItems: "center",
+                                                flexWrap: "wrap",
+                                                gap: "20px",
+
+                                                ...(() => {
+                                                    const retorno = {};
+
+                                                    switch (tema) {
+                                                        case "light":
+                                                        case "glasslight":
+                                                            retorno.backgroundColor = "white";
+                                                            break;
+                                                    }
+
+                                                    return retorno;
+                                                })()
+                                            }}
+                                        >
+                                            <img src={`${thisObj.githubPage}/src/img/temas/${tema}.png`} alt={tema} />
                                             <Button
                                                 variant="contained"
                                                 onClick={() => {
